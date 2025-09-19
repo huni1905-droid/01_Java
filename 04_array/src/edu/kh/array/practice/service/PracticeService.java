@@ -98,8 +98,62 @@ public class PracticeService {
 	 
 	 public void practice5(){
 		 
-		 System.out.println("문자열 : ");
-		 String input = sc.next();
+		 System.out.print("문자열 : ");
+		 String input1 = sc.nextLine();
+		 
+		 char[] arr = new char[input1.length()];
+		 
+		 for(int i=0; i< arr.length; i++) {
+			 arr[i] = input1.charAt(i);
+			 
+		 }
+		 
+		 System.out.print("문자 : ");
+		 String input2 = sc.next();
+		 
+		 System.out.println(input1 + "에 " + input2 + "가 존재하는 위치(인덱스) : ");
+		 
+		 
+		 
+	 }
+	 
+	 public void practice6(){
+	 
+		 System.out.print("정수 : ");
+		 int input = sc.nextInt();
+		 
+		 int[] arr = new int[input];
+		 String output = "";
+		 int sum = 0;
+		 
+		 for(int i=0; i<arr.length; i++) {
+			 System.out.print("배열 " + i +"번째 인덱스에 넣을 값 : ");
+			 arr[i] = sc.nextInt();
+			 output += arr[i] + " ";
+			 sum += arr[i];
+			 
+		 }
+		 
+		 System.out.println( output );
+		 System.out.println("총 합 : " + sum );
+
+		 
+	 }
+	 
+	 public void practice7(){
+		 
+		 String input = "";
+		 
+		 System.out.println("주민등록번호(-포함) : ");
+		 input = sc.nextLine();
+		 
+		 String[] arr = new String[14];
+		 
+		 for(int i=0; i<arr.length; i++) {
+			 arr[i] = input.charAt(i);
+			 
+		 }
+		 
 		 
 	 }
 	 

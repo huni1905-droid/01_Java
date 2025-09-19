@@ -348,10 +348,10 @@ public class ArrayExample1 {
 			// h e l l o -> 5글자
 			// 0 1 2 3 4
 			// arr[0] = 'h'; 
-			// arr[0] = 'e';
-			// arr[0] = 'l';
-			// arr[0] = 'l';
-			// arr[0] = 'o';
+			// arr[1] = 'e';
+			// arr[2] = 'l';
+			// arr[3] = 'l';
+			// arr[4] = 'o';
 			
 		}
 		System.out.println(Arrays.toString(arr));

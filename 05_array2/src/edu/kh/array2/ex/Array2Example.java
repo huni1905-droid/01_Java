@@ -202,5 +202,5 @@ public class Array2Example {
 			
 	}
 	
-	//집에서 공부를 열심히 했어요~~~
+
 }
