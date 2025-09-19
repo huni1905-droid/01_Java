@@ -7,11 +7,11 @@ public class PracticeRun {
 	public static void main(String[] args) {
 
 		PracticeService arrayEx= new PracticeService();
-		arrayEx.practice6();
+		arrayEx.practice9();
 		
 		
 		
-		
+	
 		
 	}
 

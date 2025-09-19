@@ -65,7 +65,6 @@ public class PracticeService {
 		 System.out.println(output);
 	 }
 	 
-	 
 	 public void practice4(){
 		 int[] arr = new int[5];
 		 int input ;
@@ -144,17 +143,88 @@ public class PracticeService {
 		 
 		 String input = "";
 		 
-		 System.out.println("주민등록번호(-포함) : ");
+		 System.out.print("주민등록번호(-포함) : ");
 		 input = sc.nextLine();
 		 
-		 String[] arr = new String[14];
+		 char[] arr = new char[input.length()];
+		 
 		 
 		 for(int i=0; i<arr.length; i++) {
 			 arr[i] = input.charAt(i);
-			 
 		 }
+		 
+		 for(int i =8; i < arr.length; i++) {
+			 arr[i] = '*';
+		 }
+		 
+		 String output = "";
+		 
+		 for(int i=0; i<arr.length; i++) {
+			 output += arr[i];
+		 }
+		 
+		 System.out.println(output);
+		 
+	 }
+	 
+	 public void practice8(){
+		 
+		 System.out.print("정수 : ");
+		 int input = sc.nextInt();
+		 String output1="";
+		 String output2="";
+		 
+		 while((input%2 == 0) || (input <=3)) {
+			 System.out.println("다시 입력하세요.");
+			 
+			 System.out.print("정수 : ");
+			 input = sc.nextInt();
+		 }
+		
+		 for(int i = 1; i<(input/2 + 1); i++) {
+				 output1 += i + ", ";
+		 }
+		 for(int i = input/2; i>0; i--) {
+			 output2 += ", " + i ;
+		 }
+		 
+			 System.out.println(output1 + (input/2 +1) + output2);
+	 }
+		 
+	 public void practice9(){
+		 
+		int[] arr = new int[10];
+		String output = "";
+		
+		for(int i=0; i<10; i++) {
+			
+			arr[i] = (int)(Math.random() * 10 + 1);
+			output += arr[i] + " ";
+		}
+		
+		System.out.println("발생한 난수 : " + output);
+		
+	 }
+		 
+	 public void practice10(){
+		 
+		 int[] arr = new int[10];
 		 
 		 
 	 }
+	 
+	 public void practice13(){
+		 
+		 System.out.println("문자열 : ");
+		 String input = sc.nextLine();
+		 char[] ch = new char[inputlength]; 
+		 
+		 
+	 }
+	 
+	 
+	 
+	 
+	 
 	 
 }
