@@ -217,7 +217,18 @@ public class PracticeService {
 		 
 		 System.out.println("문자열 : ");
 		 String input = sc.nextLine();
-		 char[] ch = new char[inputlength]; 
+		 char[] ch = new char[input.length()]; 
+		 String output = "";
+		 
+		 for(int i=0; i <input.length(); i++) {
+			 if(i==0) {
+				 output= 
+			 }
+			 
+			 ch[i] = input.charAt(i);
+			 ount
+			 
+		 }
 		 
 		 
 	 }
