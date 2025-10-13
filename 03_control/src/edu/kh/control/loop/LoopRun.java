@@ -7,7 +7,7 @@ public class LoopRun {
 
 		ForExample forEx = new ForExample();
 		//forEx.ex1();
-		//forEx.ex2();
+		forEx.ex2();
 		//forEx.ex3();
 		//forEx.ex4();
 		//forEx.ex5();
@@ -17,7 +17,7 @@ public class LoopRun {
 		
 		WhileExample whileEx = new WhileExample();
 		//whileEx.ex1();
-		whileEx.ex2();
+		//whileEx.ex2();
 		
 		
 		

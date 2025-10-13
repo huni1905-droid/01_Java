@@ -369,6 +369,7 @@ public class ConditionExample { // 기능 제공용 클래스
 		case 7 : System.out.println("학점 C"); break;
 		case 6 : System.out.println("학점 D"); break;
 		case 5,4,3,2,1,0 : System.out.println("학점 F"); break;
+		
 		default : System.out.println("잘못된 점수");
 		}
 		
