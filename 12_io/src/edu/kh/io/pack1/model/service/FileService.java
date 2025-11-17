@@ -172,7 +172,7 @@ public class FileService {
 			String fileName = f.getName(); // 파일 이름 조회 메서드
 			
 			// 마지막으로 수정한 날짜
-			long lastModifaied = f.lastModified(); // 17351253124
+			long lastModified = f.lastModified(); // 17351253124
 			
 			// java.text.SimpleDateFormat : 간단히 날짜 형식을 지정할 수 있는 객체
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd a h:mm");

@@ -1,5 +1,10 @@
 package edu.kh.io.pack2.run;
 
+import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
+
+import javax.naming.NameNotFoundException;
+
 import edu.kh.io.pack2.model.service.ByteService;
 
 public class ByteRun {
@@ -66,4 +71,47 @@ public class ByteRun {
 		
 	}
 
+	
+	public void method3() {
+		FileOutputStream fos = null;
+		BufferedOutputStream bos = null;
+		
+		
+		try { 
+			
+			fos = new FileOutputStream("/io_test/20251014/바이트기반_테스트_buffered.txt");
+			bos = new BufferedOutputStream(fos);		
+			
+			StringBuilder sb = new StringBuilder();
+			sb.append("hello");
+			
+			
+			
+			
+		} catch (Exception e) {
+			e.fillInStackTrace();
+		} finally {
+			try {
+				
+			} catch (Exception e2) {
+				e.fillInStackTrace();
+			}
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
 }
